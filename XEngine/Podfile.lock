@@ -1,0 +1,66 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - dsBridge (3.0.6)
+  - JSONModel (1.8.0)
+  - LSRFramework (1.0):
+    - Masonry
+    - MBProgressHUD
+    - uchardet
+  - LSRNetwork (1.0.4):
+    - AFNetworking (~> 4.0)
+    - JSONModel
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - SSZipArchive (2.2.3)
+  - uchardet (0.0.1)
+  - XEngineAlertModuleTest (1.0)
+
+DEPENDENCIES:
+  - dsBridge
+  - LSRFramework
+  - LSRNetwork
+  - SSZipArchive
+  - XEngineAlertModuleTest
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - dsBridge
+    - JSONModel
+    - LSRFramework
+    - LSRNetwork
+    - Masonry
+    - MBProgressHUD
+    - SSZipArchive
+    - uchardet
+    - XEngineAlertModuleTest
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  dsBridge: 48b62ee8a411ad601a88d6f6c8cf6cb634b206b7
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  LSRFramework: f479e0b1c2bb6a0770c21462c023d1ca42cb6ad5
+  LSRNetwork: fa1b6097d357314ed6c6d66bed0c9d53a48a284c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
+  uchardet: 2b9643afef38946d1d20c124c9e2be6c028b543d
+  XEngineAlertModuleTest: c403de66c18c7e244e0ae75b92541ca81017146f
+
+PODFILE CHECKSUM: 397d0840e76ba638b55689ec2d88ebab85f115de
+
+COCOAPODS: 1.9.3

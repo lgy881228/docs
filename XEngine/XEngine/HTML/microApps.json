@@ -1,0 +1,27 @@
+{"code":0,
+    "version":0,
+    "forceUpdate": 0,
+    "data":[
+          {
+            "microAppName":"开门",
+            "microAppId":"com.zkty.xiaoqu.opendoor",
+            "microAppVersion":0
+          },
+          {
+            "microAppName":"物业",
+            "microAppId":"com.zkty.xiaoqu.realstate",
+            "microAppVersion":0
+          },
+          {
+            "microAppName":"物业",
+            "microAppId":"com.zkty.xiaoqu.lgy",
+            "microAppVersion":0
+          },
+          {
+            "microAppName":"物业",
+            "microAppId":"com.zkty.xiaoqu.lj",
+            "microAppVersion":0
+          }
+        ]
+}
+

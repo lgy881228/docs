@@ -1,0 +1,6 @@
+framework module XEngineAlertModuleTest {
+  umbrella header "XEngineAlertModuleTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
