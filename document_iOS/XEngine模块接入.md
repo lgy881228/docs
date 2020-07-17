@@ -88,7 +88,7 @@ json格式
    }
    ```
 
-   funcName 请参考模块 API表 [模块API表](xxxxxxxx)
+   funcName 请参考模块 API表 [模块API表](https://github.com/lgy881228/docs/blob/master/document_js/UI模块使用文档.md)
 
 6. 同步方法
 
@@ -102,7 +102,7 @@ json格式
    }
    ```
 
-   funcName 请参考模块API表 [模块API表](xxxxxxxx)
+   funcName 请参考模块API表 [模块API表](https://github.com/lgy881228/docs/blob/master/document_js/UI模块使用文档.md)
 
 
 
