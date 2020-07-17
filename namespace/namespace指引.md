@@ -2,38 +2,19 @@
 
 ```
 |--_ui
-  |--Toast
-  |--Loading
-	|--Modal
-	|--ActionSheet
+  	|--Toast
+  	|--Loading
+		|--Modal
+		|--ActionSheet
 |-- _network
-  |-- get
+  	|-- get
 |-- _navigator
-  |-- setTitle
-  |-- setLeftBtn
-  |-- setRightBtn
+	  |-- setTitle
+ 	 	|-- setLeftBtn
+  	|-- setRightBtn
 |-- _auth
-  |-- token
+	  |-- token
 |-- _device
-  |-- getBatterInfo
-  |-- getNetworkInfo
+		|-- getBatterInfo
+		|-- getNetworkInfo
 ```
-
-
-
-> |--_ui
->   |--Toast
->   |--Loading
-> 	|--Modal
-> 	|--ActionSheet
-> |-- _network
->   |-- get
-> |-- _navigator
->   |-- setTitle
->   |-- setLeftBtn
->   |-- setRightBtn
-> |-- _auth
->   |-- token
-> |-- _device
->   |-- getBatterInfo
->   |-- getNetworkInfo
