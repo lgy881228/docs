@@ -12,7 +12,7 @@ pod 'JsApiTest'
 
 ###### 首次使用 可选模块， 需要在导入模块后 ，在工程目录下，创建一个json配置文件用于注册模块
 
-<img src="/Users/edz/Desktop/1594897289412.jpg" alt="img" style="zoom:50%;" />
+<img src="../resoures/ios1.jpg" alt="img" style="zoom:50%;" />
 
 json格式  
 
