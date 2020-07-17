@@ -40,7 +40,7 @@ json格式
 
 ###### 如果无需自定义功能 可按照模块Api 开始使用。
 
-###### 模块Api参见 [模块API表](https://github.com/lgy881228/docs/tree/master/document_js)
+###### 模块Api参见 [模块API表](https://github.com/lgy881228/docs/blob/master/document_js/UI模块使用文档.md)
 
 ### 4 自定义模块功能
 
