@@ -2,57 +2,52 @@
 //  EntryViewController.m
 //  XEngine
 //
-//  Created by edz on 2020/7/9.
+//  Created by edz on 2020/7/15.
 //  Copyright © 2020 edz. All rights reserved.
 //
 
 #import "EntryViewController.h"
-#import "WebLoaderViewController.h"
-@interface EntryViewController ()
+//#import <MBProgressHUD/MBProgressHUD.h>
+@interface EntryViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
 @end
 
 @implementation EntryViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    [MBProgressHUD showHUDAddedTo:[UIApplication sharedApplication].delegate.window animated:YES];
     // Do any additional setup after loading the view from its nib.
-    
-}
-- (IBAction)server1:(UIButton *)sender {
-    
-    UpdateModel *updateModel = [PublicData sharedInstance].updateModel;
-    ZipModel *model = updateModel.data[0];
-//    self.serverDict = [[NSUserDefaults standardUserDefaults] objectForKey:OffLineHtmlFilePathKey];
-    WebLoaderViewController *webLaderVC = [[WebLoaderViewController alloc] init];
-    webLaderVC.filePath = [NSString stringWithFormat:@"%@/%@.%@",[NSObject microAppDirectory], model.microAppId,model.microAppVersion];
-    webLaderVC.microAppModel = model;
-    [self pushViewController:webLaderVC];
-    
-    
-}
-- (IBAction)server2:(UIButton *)sender {
-    
-     UpdateModel *updateModel = [PublicData sharedInstance].updateModel;
-        ZipModel *model = updateModel.data[1];
-    //    self.serverDict = [[NSUserDefaults standardUserDefaults] objectForKey:OffLineHtmlFilePathKey];
-        WebLoaderViewController *webLaderVC = [[WebLoaderViewController alloc] init];
-        webLaderVC.filePath = [NSString stringWithFormat:@"%@/%@.%@",[NSObject microAppDirectory], model.microAppId,model.microAppVersion];
-        webLaderVC.microAppModel = model;
-        [self pushViewController:webLaderVC];
-}
-- (IBAction)server3:(UIButton *)sender {
-    
-     UpdateModel *updateModel = [PublicData sharedInstance].updateModel;
-        ZipModel *model = updateModel.data[2];
-    //    self.serverDict = [[NSUserDefaults standardUserDefaults] objectForKey:OffLineHtmlFilePathKey];
-//        RecyleWebViewController *webLaderVC = [[RecyleWebViewController alloc] initWithTitle:@"345678" url:[NSString stringWithFormat:@"%@/%@.%@",[NSObject preferencesDirectory], model.microAppId,@"0"] index:1 parentRecyleWebViewController:nil];
-    RecyleWebViewController *webLaderVC = [[RecyleWebViewController alloc] initWithModel:model url:[NSString stringWithFormat:@"%@/%@.%@",[NSObject microAppDirectory], model.microAppId,model.microAppVersion] index:0 parentRecyleWebViewController:nil];
-        webLaderVC.filePath = [NSString stringWithFormat:@"%@/%@.%@",[NSObject microAppDirectory], model.microAppId,model.microAppVersion];
-        webLaderVC.microAppModel = model;
-        webLaderVC.modules = @[@"JSFuction",@"XEngineAlertModuleTest"];
-        [self pushViewController:webLaderVC];
 }
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 4;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (cell == nil)
+    {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+    }
+    cell.textLabel.text = [NSString stringWithFormat:@"row %ld",indexPath.item];
+    return cell;
+    
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    MicroConfigModel *microConfigModel = [PublicData sharedInstance].microConfigModel;
+    ZipModel *model = microConfigModel.data[indexPath.item];
+    RecyleWebViewController *webLaderVC = [[RecyleWebViewController alloc] initWithMicroAppId:@"com.zkty.xiaoqu.network" url:[NSString stringWithFormat:@"%@/%@.%@",[NSObject microAppDirectory], model.microAppId,model.microAppVersion] index:0];
+    [self pushViewController:webLaderVC];
+    webLaderVC.filePath = [NSString stringWithFormat:@"%@/%@.%@",[NSObject microAppDirectory], model.microAppId,model.microAppVersion];
+    webLaderVC.microAppId = @"com.zkty.xiaoqu.network";
+    
+}
 /*
 #pragma mark - Navigation
 

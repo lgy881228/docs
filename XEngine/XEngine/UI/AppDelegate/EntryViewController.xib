@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EntryViewController">
             <connections>
+                <outlet property="tableView" destination="Ifs-b9-j8V" id="CM5-If-R83"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,39 +19,24 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofH-tJ-XPR">
-                    <rect key="frame" x="184" y="433" width="46" height="30"/>
-                    <state key="normal" title="Button"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ifs-b9-j8V">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <connections>
-                        <action selector="server2:" destination="-1" eventType="touchUpInside" id="PWA-2d-RYJ"/>
+                        <outlet property="dataSource" destination="-1" id="wA7-NK-LzS"/>
+                        <outlet property="delegate" destination="-1" id="9Cp-82-2e8"/>
                     </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9D-MH-yVq">
-                    <rect key="frame" x="270" y="433" width="46" height="30"/>
-                    <state key="normal" title="Button"/>
-                    <connections>
-                        <action selector="server3:" destination="-1" eventType="touchUpInside" id="Fab-jc-XOH"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q91-6b-hdd">
-                    <rect key="frame" x="98" y="433" width="46" height="30"/>
-                    <state key="normal" title="Button"/>
-                    <connections>
-                        <action selector="server1:" destination="-1" eventType="touchUpInside" id="bPD-tx-tCa"/>
-                    </connections>
-                </button>
+                </tableView>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
-                <constraint firstItem="U9D-MH-yVq" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Chk-pa-C6C"/>
-                <constraint firstItem="ofH-tJ-XPR" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Nuu-9k-83u"/>
-                <constraint firstItem="U9D-MH-yVq" firstAttribute="leading" secondItem="ofH-tJ-XPR" secondAttribute="trailing" constant="40" id="WPU-bF-IiM"/>
-                <constraint firstItem="ofH-tJ-XPR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bpc-rW-ZTY"/>
-                <constraint firstItem="Q91-6b-hdd" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="dhC-7M-e8J"/>
-                <constraint firstItem="ofH-tJ-XPR" firstAttribute="leading" secondItem="Q91-6b-hdd" secondAttribute="trailing" constant="40" id="y9c-U7-RaI"/>
+                <constraint firstItem="Ifs-b9-j8V" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="BNO-zf-3Ds"/>
+                <constraint firstItem="Ifs-b9-j8V" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="OVA-x1-JYP"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Ifs-b9-j8V" secondAttribute="trailing" id="SnP-3N-r05"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="Ifs-b9-j8V" secondAttribute="bottom" id="yqW-Wf-5T1"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
-            <point key="canvasLocation" x="132" y="106"/>
+            <point key="canvasLocation" x="132" y="135"/>
         </view>
     </objects>
 </document>

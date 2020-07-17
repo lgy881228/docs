@@ -2,16 +2,12 @@
 //  AppDelegate.m
 //  XEngine
 //
-//  Created by edz on 2020/7/7.
+//  Created by edz on 2020/7/15.
 //  Copyright © 2020 edz. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "WebLoaderViewController.h"
 #import "EntryViewController.h"
-
-#import "AppDelegate+CheckVersionForLocalJson.h"
-#import "XEngineSDK.h"
 @interface AppDelegate ()
 
 @end
@@ -21,30 +17,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [XEngineSDK registerApp:AppID andAppSecret:AppSecret serverUrl:@""];
-    
-//    if ([PublicData sharedInstance].updateModel)
-//    {
-//        [self getTotalVersion];
-//    }else
-//    {
-//        [self checkLocalVersion];
+//    __block BOOL end = NO;
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_global_queue(0, 0), ^{
+//        end = YES;
+//    });
+//    while (!end) {
+//        [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
 //    }
-//    [self getTotalVersion];
-//    [self checkOnlineVersion];
- 
+     
+
     
-    
-//    RecyleWebViewController *recyleWebViewController = [[RecyleWebViewController alloc] initWithTitle:<#(nonnull NSString *)#> url:<#(nonnull NSString *)#> index:<#(int)#> parentRecyleWebViewController:<#(nonnull RecyleWebViewController *)#>]
     EntryViewController *homePageVC = [[EntryViewController alloc] init];
-    
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homePageVC];
-    
-    
-    self.window.rootViewController = nav;
+       
+       
+       self.window.rootViewController = nav;
+     [XEngineSDK registerApp:AppID andAppSecret:AppSecret serverUrl:@""];
     return YES;
 }
-
 
 
 

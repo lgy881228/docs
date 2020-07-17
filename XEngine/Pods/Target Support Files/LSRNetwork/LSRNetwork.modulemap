@@ -1,6 +1,0 @@
-framework module LSRNetwork {
-  umbrella header "LSRNetwork-umbrella.h"
-
-  export *
-  module * { export * }
-}

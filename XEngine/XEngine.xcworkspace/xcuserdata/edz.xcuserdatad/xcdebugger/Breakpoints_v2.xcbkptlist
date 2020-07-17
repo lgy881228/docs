@@ -1,77 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
-   uuid = "2F3A0ADD-CB35-4AA2-889C-4C51FFDD3F97"
+   uuid = "F366E26E-FAA3-42EF-AE93-164F1CCEAB3E"
    type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "013A6831-8321-408D-B16C-3DFBCFC96E9F"
+            uuid = "D9736C47-B25D-4E99-92E9-0FFD59170F77"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XEngine/XEngineSDK/XEngineSDK.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-updateMicroApp"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4297F2DA-6066-46FA-BA65-D7F583E39B03"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/LSRFramework/LSRFramework/Classes/BaseClasses/WebViewController/WKWebViewController.mm"
+            filePath = "XEngine/XEngineSDK/XEngineSDK.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "264"
-            endingLineNumber = "264"
-            landmarkName = "-loadHTMLString"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
+            landmarkName = "-allocMicroApps"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7DC597D5-5F72-49D2-8417-F56C9D684B6B"
+            uuid = "D8A12E38-27A4-4ED4-9C46-82187BD5AAD4"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XEngine/UI/WebViewController/JSApi/JS_NavigationBarAPI.m"
+            filePath = "XEngine/XEngineSDK/XEngineSDK.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "-presentDialog:"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-updateMicroApp"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8CD78129-BAF5-4875-B9E1-A4FC4C44C60C"
+            uuid = "F0751B64-E059-4D22-ABC8-D57A7712FCB2"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XEngine/UI/WebViewController/JSApi/JS_NavigationBarAPI.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "-presentDialog:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BEB7ADB4-DF79-4A69-B490-B1D36D39E670"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XEngine/Tools/ZipArchiveTool.m"
+            filePath = "XEngine/UI/AppDelegate/EntryViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "46"
             endingLineNumber = "46"
-            landmarkName = "+releaseZipFilesWithUnzipFileAtPath:Destination:complate:"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4F9635D-BE94-4127-ADF8-FEBAF130659A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XEngine/XEngineSDK/MicroModule/NetWorkModule.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "-requestNetwork:complate:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91F0EA71-84A4-4E3D-B588-CBDD6C0759A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XEngine/XEngineSDK/NetWorking/JSAPIRequest.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "+handleResponseHeader:resesponseData:withSuccessBlock:dataModel:failure:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
          <BreakpointContent
-            uuid = "502B653F-36A1-4C6B-83B9-7BB5F672460E"
+            uuid = "E5C27AA7-3701-4AF8-875C-44C040816A9B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -83,176 +115,64 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EC5B7BFD-5781-4B5C-B2A4-367330ACFCF9"
+            uuid = "1CC42A6E-F90A-4F31-A4E7-3696456F1A21"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XEngine/UI/AppDelegate/AppDelegate+DownLoadZip.m"
+            filePath = "XEngine/XEngineSDK/XEngineWebViewController/RecyleWebViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "-downloadZipforServer:success:"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "-initWithMicroAppId:url:index:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "FBF2F13F-8713-4121-9A89-DF8653CDD973"
+            uuid = "D9E3C869-731E-436B-B5C4-C6E8C725BA7A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XEngine/UI/AppDelegate/AppDelegate.m"
+            filePath = "XEngine/XEngineSDK/XEngineWebViewController/RecyleWebViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "AppDelegate"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C911B529-E934-479F-B6EE-C381404264F7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XEngine/UI/AppDelegate/EntryViewController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "-server2:"
+            startingLineNumber = "326"
+            endingLineNumber = "326"
+            landmarkName = "-webView:decidePolicyForNavigationResponse:decisionHandler:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "80E15DB1-7392-4E16-A386-7BCE26C91C82"
+            uuid = "C7328365-9D75-43F4-A507-710CB4112280"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XEngine/UI/WebViewController/Controller/WebLoaderViewController.m"
+            filePath = "XEngine/XEngineSDK/MicroModule/UIModule.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-showToast:complate:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AAC565E1-4A3E-4130-9BB2-06F5765FA00A"
+            uuid = "9201B0DC-9863-4978-8CDF-9237D3D88F63"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XEngine/UI/WebViewController/Controller/RecyleWebViewController.m"
+            filePath = "XEngine/XEngineSDK/MicroModule/UIModule.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "-initWithModel:url:index:parentRecyleWebViewController:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F9926DEA-63BF-4C92-9D5C-EF994BA736B8"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XEngine/UI/WebViewController/Controller/WebLoaderViewController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0209910D-FB6D-4827-AFE0-8173A318263B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XEngine/UI/WebViewController/Controller/RecyleWebViewController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "-loadUrlWithModel:url:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9786A52E-9C2B-4686-A834-6C932B660C9F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XEngine/Tools/WebViewPool/WebViewMgr.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "-init"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D67DA988-14D4-4ADC-B3A5-98E372BE2D71"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XEngine/NetWorking/JSAPIRequest.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "+handleResponseHeader:resesponseData:withSuccessBlock:dataModel:failure:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "25AE14C9-7CEE-4230-BF3B-A954DAFD8D76"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XEngine/UI/WebViewController/JSApi/JSFuction.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "-requestNetwork::"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BE9C891A-B1A7-432A-B20E-6CE590412ABC"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XEngine/UI/WebViewController/JSApi/JSFuction.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "-requestNetwork::"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "-showActionSheet:complate:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

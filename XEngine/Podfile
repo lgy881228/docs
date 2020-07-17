@@ -6,9 +6,17 @@ target 'XEngine' do
   use_frameworks!
 
   # Pods for XEngine
-pod "dsBridge"
- pod "LSRNetwork"
- pod "LSRFramework"
- pod 'SSZipArchive'
- pod 'XEngineAlertModuleTest'
+ 	pod 'LSRFramework'
+	pod 'JSONModel'
+ 	pod 'SSZipArchive'
+	pod 'AFNetworking'
+  target 'XEngineTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'XEngineUITests' do
+    # Pods for testing
+  end
+
 end

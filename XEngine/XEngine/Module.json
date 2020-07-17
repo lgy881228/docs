@@ -1,0 +1,21 @@
+{
+  "Modules":[
+      {
+        "key":"echo",
+        "value":"JsApiTest"
+      
+      },
+      {
+       "key":"",
+       "value":"XEngineAlertModuleTest"
+      },
+      {
+       "key":"_network",
+       "value":"NetWorkModule"
+      },
+      {
+       "key":"_ui",
+       "value":"UIModule"
+      }
+  ]
+}
